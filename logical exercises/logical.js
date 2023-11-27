@@ -185,21 +185,21 @@ function factorial(number) {
 
 factorial(5)
 
-let array2 = [6,7,1,4,98,7,8,77,56,76,56]
-function SearchPar(array){
+let array2 = [6, 7, 1, 4, 98, 7, 8, 77, 56, 76, 56]
+function SearchPar(array) {
   let esPar = []
-for(i = 0 ; i < array2.length ; i ++)
- if(array2[i] % 2 === 0 ){
-  esPar.push(array2[i])
- }
- console.log(esPar) 
- }
+  for (i = 0; i < array2.length; i++)
+    if (array2[i] % 2 === 0) {
+      esPar.push(array2[i])
+    }
+  console.log(esPar)
+}
 
- SearchPar(array2)
+SearchPar(array2)
 
 
 
-SearchPar(); 
+SearchPar();
 
 
 
